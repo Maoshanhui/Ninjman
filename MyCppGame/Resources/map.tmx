@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="35" tilewidth="32" tileheight="32" nextobjectid="7">
+ <tileset firstgid="1" name="sewer_tileset" tilewidth="32" tileheight="32" tilecount="36">
+  <image source="sewer_tileset.png" width="192" height="217"/>
+ </tileset>
+ <layer name="background" width="50" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztmNEKwCAIRX3b///xGGMvY5Q6o2N5oLfh7iGhTOTmkDgia1nrtr6x5iqP/3V7HtY1gr8eFMqDRS/jyJ6OROORgfJgkd1Dey7RPR7Kg0V5sNjBI8ud5CJyRppJebBozZ6ZPL54e8yevb0Qc3kz0Ty8ZPEg97slg/adhOwrwf/ewWP0fnreZYl91YOeT8tqHiusE0c4Bb8=
+  </data>
+ </layer>
+ <objectgroup name="born">
+  <object id="1" name="playerBorn" x="479" y="1049" width="35" height="38"/>
+  <object id="5" name="mosterBorn1" x="189.5" y="697" width="35" height="38"/>
+  <object id="6" name="mosterBorn2" x="1499.5" y="793" width="35" height="38"/>
+ </objectgroup>
+</map>
