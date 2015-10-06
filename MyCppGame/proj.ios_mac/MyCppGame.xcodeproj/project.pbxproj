@@ -66,6 +66,7 @@
 		5C0E6FF71BC11A2600C3DDB7 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E6FF41BC11A2600C3DDB7 /* bullet.png */; settings = {ASSET_TAGS = (); }; };
 		5C0E70001BC11C0D00C3DDB7 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E6FFE1BC11C0D00C3DDB7 /* monster.png */; settings = {ASSET_TAGS = (); }; };
 		5C0E70011BC11C0D00C3DDB7 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E6FFF1BC11C0D00C3DDB7 /* player.png */; settings = {ASSET_TAGS = (); }; };
+		5C0E70061BC2101C00C3DDB7 /* CCShake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E70041BC2101C00C3DDB7 /* CCShake.cpp */; settings = {ASSET_TAGS = (); }; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -168,6 +169,8 @@
 		5C0E6FF41BC11A2600C3DDB7 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
 		5C0E6FFE1BC11C0D00C3DDB7 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
 		5C0E6FFF1BC11C0D00C3DDB7 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		5C0E70041BC2101C00C3DDB7 /* CCShake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCShake.cpp; sourceTree = "<group>"; };
+		5C0E70071BC2104D00C3DDB7 /* CCShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCShake.h; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -324,6 +327,8 @@
 				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
 				5C0E6FE61BC0CE7500C3DDB7 /* Ninja.cpp */,
 				5C0E6FE91BC0D46F00C3DDB7 /* Ninja.h */,
+				5C0E70071BC2104D00C3DDB7 /* CCShake.h */,
+				5C0E70041BC2101C00C3DDB7 /* CCShake.cpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -542,6 +547,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				5C0E6FE81BC0CE7500C3DDB7 /* Ninja.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				5C0E70061BC2101C00C3DDB7 /* CCShake.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

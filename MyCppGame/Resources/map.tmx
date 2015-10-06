@@ -10,7 +10,7 @@
  </layer>
  <objectgroup name="born">
   <object id="1" name="playerBorn" x="479" y="1049" width="35" height="38"/>
-  <object id="5" name="mosterBorn1" x="189.5" y="697" width="35" height="38"/>
-  <object id="6" name="mosterBorn2" x="1499.5" y="793" width="35" height="38"/>
+  <object id="5" name="monsterBorn1" x="189.5" y="697" width="35" height="38"/>
+  <object id="6" name="monsterBorn2" x="1499.5" y="793" width="35" height="38"/>
  </objectgroup>
 </map>
